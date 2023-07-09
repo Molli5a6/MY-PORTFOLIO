@@ -194,45 +194,44 @@ body {
   
   /* Contact Form */
   
-  form {
+  .contact-form {
+    width: 100%;
+  }
+  
+  .contact-form h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form form {
     display: grid;
     grid-gap: 10px;
   }
   
-  form label {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  form input,
-  form textarea {
+  .contact-form input,
+  .contact-form textarea {
     width: 100%;
     padding: 10px;
-    border-radius: 5px;
     border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
-  form input:focus,
-  form textarea:focus {
-    outline: none;
-    border-color: #666;
+  .contact-form textarea {
+    resize: vertical;
   }
   
-  form button {
+  .contact-form button {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
   }
   
-  form button:hover {
-    background-color: #222;
+  .contact-form button:hover {
+    background-color: #555;
   }
-  
   /* Footer */
   
   footer {
